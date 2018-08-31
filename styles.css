@@ -6,5 +6,21 @@ h1 {
 }
 body {
   background-color: #355e3b;
-
+}
+.navbar li{
+  display: inline;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRV20MvVeFlAUaJW_qqNOm0xdBSBN5U7vibx6uelK_-xuYLxZif");
+}
+.login {
+  float: right;
+}
+.login a{
+  cursor:pointer;
+  margin-right: 30px;
+  padding: 8px 18px;
+  border: 1px solid #204156;
+  position:relative;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRV20MvVeFlAUaJW_qqNOm0xdBSBN5U7vibx6uelK_-xuYLxZif");
+.login a:active{
+  top: 5px;
 }
